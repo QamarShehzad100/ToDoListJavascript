@@ -1,0 +1,76 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    background-color: white;
+    color: blue;
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+    text-align-last: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+.top-container input {
+    width: 300px; 
+    height: 100%;
+    margin-right: 20px;
+}
+.mid-container p {
+
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    width: 385px;
+}
+.btn {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+}
+.delBtn{
+    background: blue;
+    width: 30px;
+    height: 30px;
+    border-style: none;
+}
+.delBtn img 
+{
+    width: 15px;
+    height: 15px;
+}
+.top-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 480px;
+    height: 400px;
+    margin-top: 20px;
+    background:#fff;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-container p {
+    display: flex;
+    justify-content: space-between;
+}
+.mid-container span {
+    overflow: auto;
+}
+
