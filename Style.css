@@ -32,12 +32,16 @@ body {
     border-radius: 5px;
     color: white;
     width: 80px;
+    height: 40px;
+    margin-top: 20px;
 }
 .delBtn{
     background: blue;
     width: 30px;
     height: 30px;
     border-style: none;
+    color: #fff;
+    border-radius: 5px;
 }
 .delBtn img 
 {
@@ -49,7 +53,6 @@ body {
     flex-direction: row;
     padding-bottom: 20px;
 }
-
 .box {
     display: flex;
     justify-content: center;
@@ -57,7 +60,8 @@ body {
     flex-direction: column;
     border-radius: 8px;
     width: 480px;
-    height: 400px;
+    min-height: 100px;
+    height: auto;
     margin-top: 20px;
     background:#fff;
 }
@@ -65,6 +69,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.box-container input {
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid gray;
 }
 .mid-container p {
     display: flex;
